@@ -16,8 +16,8 @@ const Header: React.FC = () => {
     <nav>
         <styles.link to=''>Sobre mim</styles.link>
         <styles.link to=''>Conhecimentos</styles.link>
-        <styles.link to=''>Fale comigo</styles.link>
         <styles.link to=''>Projetos</styles.link>
+        <styles.link to=''>Fale comigo</styles.link>
     </nav>
     <styles.social>
         <GithubIcon className='social-icon'/>

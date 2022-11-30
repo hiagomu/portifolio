@@ -5,6 +5,8 @@ const centerWelcome = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 40rem;
+    background-color: #000;
     color: #fff;
 `
 

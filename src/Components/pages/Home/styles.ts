@@ -5,11 +5,10 @@ const main = styled.div`
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    height: 40rem;
-    background-color: #000;
+    background-color: #09090b;
     font-family: 'Fira Sans', sans-serif;
 `
 
 export default {
-    main,
+    main
 }
