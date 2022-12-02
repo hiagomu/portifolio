@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { Link } from 'react-router-dom'
 
 const header = styled.header`
     position: fixed;
@@ -24,9 +23,15 @@ const header = styled.header`
     }
 `
 
-const link = styled(Link)`
+const link = styled.a`
     text-decoration: none;
     color: #fff;
+    cursor: pointer;
+
+    &:hover {
+        color: #ff3a5e;
+        transform: scale(1.05);
+    }
 `
 
 const social = styled.div`
@@ -38,7 +43,13 @@ const social = styled.div`
         height: 1.5rem;
         width: 1.5rem;
         color: #fff;
+        transition: all 200ms linear; 
+        
+        &:hover {
+            color: #ff3a5e;
+        }
     }
+
 
 `
 

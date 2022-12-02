@@ -2,7 +2,9 @@ import styles from './styles'
 
 const About: React.FC = () => {
     return (
-        <styles.about>
+        <styles.about
+            id='about'
+        >
             <img src="https://pbs.twimg.com/profile_images/1548517035289841669/BZNA6tJJ_400x400.jpg" alt="" />
             <styles.aboutText>
                 <h2>Sobre mim</h2>
