@@ -2,7 +2,10 @@ import styles from './styles'
 import projects from '../../utils/projects.json'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
-import twitter from '../../../../public/twitter.png'
+import {
+    FaGithub as GithubIcon,
+    FaLink as LinkIcon
+} from 'react-icons/fa'
 
 const Projects: React.FC = () => {
 
@@ -28,8 +31,19 @@ const Projects: React.FC = () => {
                 </styles.selectProject>
                 <styles.imagePreview>
                     <img src={projects[projectIndex].imagePath} alt={projects[projectIndex].description} />
-                    <div>
-                        <Link to=""></Link>
+                    <div className='fade-background'>
+                        {
+                            projects[projectIndex].github && 
+                            <a href={projects[projectIndex].github} target="_blank">
+                                <GithubIcon className='link-icon'/>
+                            </a>
+                        }
+                        {
+                            projects[projectIndex].live &&
+                            <a href={projects[projectIndex].live} target="_blank">
+                                <LinkIcon className='link-icon'/>
+                            </a>
+                        }
                     </div>
                 </styles.imagePreview>
                 <styles.wrapDescription>

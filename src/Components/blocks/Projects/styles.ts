@@ -49,12 +49,46 @@ const selectProjectButton = styled.button<{active: boolean}>`
 `
 
 const imagePreview = styled.div`
+    display: flex;
+    position: relative;
+    height: fit-content;
+    
+    
     img {
         border-radius: 1rem;
         width: 24rem;
         height: 16rem;
         object-fit: cover;
     }
+
+    &:hover > .fade-background {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .fade-background {
+        display: none;
+        cursor: pointer;
+        gap: 2rem;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 1rem;
+    }
+
+    .link-icon {
+        color: #ff3a5e;
+        height: 2rem;
+        width: 2rem;
+
+        &:hover {
+            color: #fff;
+            transform: scale(1.1);
+        }
+    }
+
 `
 
 const wrapDescription = styled.div`
