@@ -1,27 +1,27 @@
 [
     {
         "name": "Starbooks",
-        "description": "Starbooks é uma aplicação feita em ReactJS, com intuito de anuciar promoções de livros",
+        "description": "O Starbooks é um website desenvolvido com intuito de mostrar as melhores promoções de livros, e que futuramente tem pretensão de conectar usuários de acordo com seus interesses.",
         "stack": ["React", "Javascript", "CSS", "Firebase"],
         "live": "",
         "github": "https://github.com/hiagomu/starbooks",
-        "photoUrl": "https://camo.githubusercontent.com/152aa1882025d68b1f6a0944ee11453f207605a19744b159c640a4f281015b15/68747470733a2f2f692e696d6775722e636f6d2f4c4e74546a704b2e706e67"
+        "imagePath": "/starbooks.png"
+    },
+    {
+        "name": "NBA Scoreboard",
+        "description": "Projeto desenvolvido com intuito de mostrar os placares de jogos da NBA em tempo real, e situações do andamento de cada partida.",
+        "stack": ["React", "Typescript", "Styled Components", "Material UI", "Figma"],
+        "live": "https://nba-dashboard.vercel.app/",
+        "github": "https://github.com/hiagomu/nba-dashboard",
+        "imagePath": "/nba-dashboard.png"
     },
     {
         "name": "NBA Scorebot",
         "description": "NBA Scorebot é um bot feito com NodeJS, que faz tweets dos placares de partidas da NBA em tempo real",
-        "stack": ["NodeJS", "Twitter API v2"],
+        "stack": ["NodeJS", "Express", "Twitter API v2"],
         "live": "https://twitter.com/nbagamesbot",
         "github": "https://github.com/hiagomu/nba-scorebot",
-        "photoUrl": "https://github.com/hiagomu/nba-scorebot/blob/master/public/nba-bot.png?raw=true"
-    },
-    {
-        "name": "NBA Scoreboard",
-        "description": "NBA Scoreboard é um website desenvolvido com React e Typescript que mostra placares em tempo real",
-        "stack": ["React", "Typescript", "Styled Components", "Figma"],
-        "live": "https://nba-dashboard.vercel.app/",
-        "github": "https://github.com/hiagomu/nba-dashboard",
-        "photoUrl": "https://raw.githubusercontent.com/hiagomu/nba-dashboard/master/public/home-screen.png"
+        "imagePath": "/nbagamesbot.png"
     },
     {
         "name": "Portifolio",
@@ -29,6 +29,6 @@
         "stack": ["React", "Typescript", "Styled Components", "Figma"],
         "live": "https://nba-dashboard.vercel.app/",
         "github": "https://github.com/hiagomu/nba-dashboard",
-        "photoUrl": "https://raw.githubusercontent.com/hiagomu/nba-dashboard/master/public/home-screen.png"
+        "imagePath": "/portifolio.png"
     }
 ]

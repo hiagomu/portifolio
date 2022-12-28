@@ -22,7 +22,7 @@ const project = styled.div`
     display: flex;
     justify-content: space-between;
     height: 10rem;
-    width: 68rem;
+    width: 72rem;
     margin-top: 4rem;
 `
 
@@ -51,14 +51,15 @@ const selectProjectButton = styled.button<{active: boolean}>`
 const imagePreview = styled.div`
     img {
         border-radius: 1rem;
-        width: 20rem;
-        height: 12rem;
+        width: 24rem;
+        height: 16rem;
+        object-fit: cover;
     }
 `
 
 const wrapDescription = styled.div`
     width: 26rem;
-    height: fit-content;
+    height: 14rem;
     border-radius: 1rem;
     padding: 1rem;
 
@@ -69,18 +70,20 @@ const wrapDescription = styled.div`
     p {
         font-size: 1.1rem;
         margin: 2rem 0;
+        height: 4rem;
     }
 
     ul {
         display: flex;
-        justify-content: flex-start;
+        align-items: end;
         flex-wrap: wrap;
+        height: 4rem;
 
         li {
             background: #ff3a5e;
             border-radius: 0.25rem;
             padding: 0.25rem 0.5rem;
-            margin-right: 0.5rem;
+            margin: 0.5rem 0.5rem 0 0;
             color: #fff;
         }
     }

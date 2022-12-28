@@ -2,6 +2,7 @@ import styles from './styles'
 import projects from '../../utils/projects.json'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
+import twitter from '../../../../public/twitter.png'
 
 const Projects: React.FC = () => {
 
@@ -26,7 +27,7 @@ const Projects: React.FC = () => {
                     }
                 </styles.selectProject>
                 <styles.imagePreview>
-                    <img src={projects[projectIndex].photoUrl} alt="" />
+                    <img src={projects[projectIndex].imagePath} alt={projects[projectIndex].description} />
                     <div>
                         <Link to=""></Link>
                     </div>
