@@ -9,7 +9,9 @@ const Welcome: React.FC = () => {
                     <h1>Eu sou Hiago,</h1>
                     <p>Desenvolvedor Front-end.</p>
                     <styles.wrapButtons>
-                        <button className='cv'>BAIXAR CV</button>
+                        <a href="https://drive.google.com/uc?id=10RCIU1ayCMtg83t0atx5a3r-foPwtF_p&export=download">
+                            <button className='cv'>BAIXAR CV</button>
+                        </a>
                         <button>CONTATO</button>
                     </styles.wrapButtons>
                 </styles.wrapWelcome>
