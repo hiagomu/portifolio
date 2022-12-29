@@ -1,0 +1,51 @@
+[   
+    {
+        "id": 1,
+        "name": "Front-end",
+        "tools": [
+            "React",
+            "HTML5",
+            "CSS3",
+            "Javascript",
+            "Typescript",
+            "Styled Components",
+            "Material UI",
+            "Jest & React Testing Library"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Back-end",
+        "tools": [
+            "NodeJS",
+            "Prisma ORM",
+            "Sequelize",
+            "ExpressJS",
+            "PostgreSQL",
+            "MongoDB"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Infraestrutura",
+        "tools": [
+            "Cloudflare Pages",
+            "Github Actions",
+            "AWS Cloudwatch",
+            "AWS API Gateway",
+            "AWS Lambda",
+            "AWS RDS",
+            "AWS SQS",
+            "AWS S3"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Outros",
+        "tools": [
+            "Git/Github",
+            "Figma",
+            "Jira"
+        ]
+    }
+]

@@ -16,11 +16,11 @@ const about = styled.section`
 
 const aboutText = styled.div`
     width: 30rem;
-
+    
     h2 {
-        font-size: 2.5rem;
-        letter-spacing: 0.1rem;
         margin-bottom: 2rem;
+        font-weight: bold;
+        font-size: 3rem;
         color: #ff3a5e;
     }
 

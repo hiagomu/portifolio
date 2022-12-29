@@ -1,6 +1,5 @@
 import styles from './styles'
 import projects from '../../utils/projects.json'
-import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import {
     FaGithub as GithubIcon,

@@ -55,7 +55,6 @@ const imagePreview = styled.div`
     
     
     img {
-        border-radius: 1rem;
         width: 24rem;
         height: 16rem;
         object-fit: cover;
@@ -75,7 +74,6 @@ const imagePreview = styled.div`
         position: absolute;
         width: 100%;
         height: 100%;
-        border-radius: 1rem;
     }
 
     .link-icon {
