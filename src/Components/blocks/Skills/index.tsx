@@ -1,6 +1,9 @@
 import styles from './styles'
 import stacks from '../../utils/stacks.json'
 import React, { useState } from 'react'
+import {
+    MdVerified as VerifiedIcon
+} from 'react-icons/md'
 
 const Skills: React.FC = () => {
 
@@ -29,7 +32,10 @@ const Skills: React.FC = () => {
                     <ul>
                         {
                             stacks[stackIndex].tools.map(tool => 
-                                <li>{tool}</li>
+                                <li>
+                                    {tool}
+                                    <VerifiedIcon className="verified"/>
+                                </li>
                             )
                         }
                     </ul>

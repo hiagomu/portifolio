@@ -64,6 +64,12 @@ const skillsBox = styled.div`
     li {
         font-size: 1.25rem;
         margin-bottom: 1rem;
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .verified {
+        color: #ff3a5e;
     }
 `
 

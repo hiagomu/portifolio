@@ -3,14 +3,15 @@
         "id": 1,
         "name": "Front-end",
         "tools": [
-            "React",
+            "ReactJS",
+            "Typescript",
+            "Javascript",
+            "Styled Components",
+            "React Testing",
+            "Material UI",
             "HTML5",
             "CSS3",
-            "Javascript",
-            "Typescript",
-            "Styled Components",
-            "Material UI",
-            "Jest & React Testing Library"
+            "Jest"
         ]
     },
     {
