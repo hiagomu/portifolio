@@ -1,5 +1,5 @@
 import styles from './styles'
-import stacks from '../../utils/stacks.json'
+import stacks from '../../../utils/stacks.json'
 import React, { useState } from 'react'
 import {
     MdVerified as VerifiedIcon
@@ -10,7 +10,7 @@ const Skills: React.FC = () => {
     const [stackIndex, setStackIndex] = useState(0)
 
     return (
-        <styles.skills>
+        <styles.skills id='skills'>
             <h2>Conhecimentos</h2>
             <styles.stackWrapper>
                 <styles.selectStack>

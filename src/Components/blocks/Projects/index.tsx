@@ -1,5 +1,5 @@
 import styles from './styles'
-import projects from '../../utils/projects.json'
+import projects from '../../../utils/projects.json'
 import { useState } from 'react'
 import {
     FaGithub as GithubIcon,

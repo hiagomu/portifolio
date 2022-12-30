@@ -1,4 +1,5 @@
 import About from '../../blocks/About'
+import Contact from '../../blocks/Contact'
 import Header from '../../blocks/Header'
 import Projects from '../../blocks/Projects'
 import Skills from '../../blocks/Skills'
@@ -12,6 +13,7 @@ const Home: React.FC = () => {
         <About />
         <Projects />
         <Skills />
+        <Contact />
     </styles.main>
 }
 
