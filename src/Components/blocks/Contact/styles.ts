@@ -58,7 +58,14 @@ const form = styled.form`
     }
 `
 
+const emailStatus = styled.p<{success: boolean}>` 
+    margin-top: 1rem;
+    color: ${props => props.success ? '#00ff00' : '#ff3a5e'}
+`
+
+
 export default {
     contact,
-    form
+    form,
+    emailStatus
 }
