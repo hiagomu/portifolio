@@ -10,7 +10,7 @@ const contact = styled.section`
     color: #fff;
 
     h2 {
-        width: 68rem;
+        width: 70%;
         font-weight: bold;
         font-size: 3rem;
         color: #ff3a5e;
@@ -23,6 +23,7 @@ const form = styled.form`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
 
     input, textarea {
         height: 1.75rem;
@@ -35,6 +36,10 @@ const form = styled.form`
         font-size: 1.1rem;
         background-color: #202024;
         color: #fff;
+
+        @media (max-width: 600px) {
+            width: 80%;
+        }
     }
 
     textarea {

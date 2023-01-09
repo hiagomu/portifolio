@@ -12,21 +12,37 @@ const about = styled.section`
         width: 20rem;
         border-radius: 0.5rem;
     }
+
+    @media (max-width: 1100px) {
+        flex-direction: column;
+    }
 `
 
 const aboutText = styled.div`
     width: 30rem;
+
+    @media (max-width: 600px) {
+        width: 80%;
+    }
     
     h2 {
         margin-bottom: 2rem;
         font-weight: bold;
         font-size: 3rem;
         color: #ff3a5e;
+
+        @media (max-width: 1100px) {
+            text-align: center;
+        }
     }
 
     p {
         font-size: 1.3rem;
         letter-spacing: 0.1rem;
+
+        @media (max-width: 600px) {
+            font-size: 1.1rem;
+        }
     }
 `
 

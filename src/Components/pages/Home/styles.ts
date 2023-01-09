@@ -7,6 +7,7 @@ const main = styled.div`
     width: 100%;
     background-color: #09090b;
     font-family: 'Fira Sans', sans-serif;
+    position: relative;
 `
 
 export default {

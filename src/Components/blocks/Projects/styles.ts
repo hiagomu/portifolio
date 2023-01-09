@@ -10,20 +10,28 @@ const projects = styled.section`
     color: #fff;
 
     h2 {
-        width: 68rem;
+        width: 70%;
         margin-top: 2rem;
         font-weight: bold;
         font-size: 3rem;
         color: #ff3a5e;
+    }
+
+    @media (max-width: 1100px) {
+        height: fit-content;
     }
 `
 
 const project = styled.div`
     display: flex;
     justify-content: space-between;
-    height: 10rem;
-    width: 72rem;
+    width: 80%;
     margin-top: 4rem;
+
+    @media (max-width: 1100px) {
+        flex-direction: column;
+        align-items: center;        
+    }
 `
 
 const selectProject = styled.div`
@@ -33,6 +41,11 @@ const selectProject = styled.div`
     width: 17rem;
     height: fit-content;
     background: #202024;
+
+    @media (max-width: 1100px) {
+        margin-bottom: 1rem;
+        width: 24rem;        
+    }
 `
 
 const selectProjectButton = styled.button<{active: boolean}>`
@@ -94,6 +107,11 @@ const wrapDescription = styled.div`
     height: 14rem;
     border-radius: 1rem;
     padding: 1rem;
+
+    @media (max-width: 1100px) {
+        margin-bottom: 2rem;
+        width: 24rem;        
+    }
 
     h3 {
         font-size: 1.75rem;

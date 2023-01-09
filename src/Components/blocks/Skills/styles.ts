@@ -8,19 +8,28 @@ const skills = styled.section`
     color: #fff;
 
     h2 {
-        width: 68rem;
+        width: 70%;
         margin-top: 2rem;
         font-weight: bold;
         font-size: 3rem;
         color: #ff3a5e;
+    }
+
+    @media (max-width: 1100px) {
+        height: fit-content;
     }
 `
 
 const stackWrapper = styled.div`
     display: flex;
     justify-content: space-between;
-    width: 60rem;
+    width: 60%;
     margin-top: 5rem;
+
+    @media (max-width: 1100px) {
+        flex-direction: column;
+        align-items: center;
+    }
 `
 
 const selectStack = styled.div`
@@ -30,6 +39,11 @@ const selectStack = styled.div`
     width: 25rem;
     height: fit-content;
     background: #202024;
+
+    @media (max-width: 1100px) {
+        margin-bottom: 1rem;
+        width: 24rem;        
+    }
 `
 
 const selectStackButton = styled.button<{active: boolean}>`
@@ -54,6 +68,11 @@ const skillsBox = styled.div`
     width: 23rem;
     padding: 2rem;
     background-color: #000;
+
+    @media (max-width: 1100px) {
+        margin-bottom: 2rem;
+        width: 20rem;        
+    }
 
     h3 {
         font-size: 1.5rem;

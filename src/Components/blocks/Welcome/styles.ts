@@ -34,6 +34,10 @@ const wrapWelcome = styled.div`
         font-size: 5rem;
         font-weight: bold;
         margin-bottom: 1.75rem;
+
+        @media (max-width: 600px) {
+            font-size: 4rem;
+        }
     }
 
     p {
