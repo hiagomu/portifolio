@@ -38,11 +38,19 @@ const wrapWelcome = styled.div`
         @media (max-width: 600px) {
             font-size: 4rem;
         }
+
+        @media (max-width: 520px) {
+            font-size: 3rem;
+        }
     }
 
     p {
         font-size: 1.75rem;
         color: rgba(255, 255, 255, 0.66);
+
+        @media (max-width: 520px) {
+            font-size: 1.5rem;
+        }
     }
 
     img {
@@ -56,6 +64,10 @@ const wrapButtons = styled.div`
     width: 22rem;
     margin-top: 3rem;
 
+    @media (max-width: 520px) {
+        width: 18rem;
+    }
+
     button {
         background: none;
         font-size: 1rem;
@@ -66,6 +78,10 @@ const wrapButtons = styled.div`
         height: 2.5rem;
         width: 10rem;
         cursor: pointer;
+
+        @media (max-width: 520px) {
+            width: 8rem;
+        }
     }
 
     .cv {

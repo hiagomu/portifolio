@@ -11,6 +11,12 @@ const about = styled.section`
         height: 20rem;
         width: 20rem;
         border-radius: 0.5rem;
+
+        
+        @media (max-width: 520px) {
+            width: 15rem;
+            height: 15rem;
+        }
     }
 
     @media (max-width: 1100px) {
@@ -33,6 +39,7 @@ const aboutText = styled.div`
 
         @media (max-width: 1100px) {
             text-align: center;
+            font-size: 2.5rem;
         }
     }
 
@@ -41,7 +48,7 @@ const aboutText = styled.div`
         letter-spacing: 0.1rem;
 
         @media (max-width: 600px) {
-            font-size: 1.1rem;
+            font-size: 1rem;
         }
     }
 `

@@ -11,7 +11,7 @@ const Skills: React.FC = () => {
 
     return (
         <styles.skills id='skills'>
-            <h2>Conhecimentos</h2>
+            <h2>Habilidades</h2>
             <styles.stackWrapper>
                 <styles.selectStack>
                     {

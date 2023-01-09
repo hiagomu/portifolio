@@ -15,6 +15,11 @@ const projects = styled.section`
         font-weight: bold;
         font-size: 3rem;
         color: #ff3a5e;
+
+        @media (max-width: 1100px) {
+            font-size: 2.5rem;
+            text-align: center;
+        }
     }
 
     @media (max-width: 1100px) {
@@ -46,6 +51,10 @@ const selectProject = styled.div`
         margin-bottom: 1rem;
         width: 24rem;        
     }
+
+    @media (max-width: 520px) {
+        width: 18rem; 
+    }
 `
 
 const selectProjectButton = styled.button<{active: boolean}>`
@@ -66,11 +75,15 @@ const imagePreview = styled.div`
     position: relative;
     height: fit-content;
     
-    
     img {
         width: 24rem;
         height: 16rem;
         object-fit: cover;
+
+        @media (max-width: 520px) {
+            width: 18rem;
+            height: 12rem;
+        }
     }
 
     &:hover > .fade-background {
@@ -110,7 +123,11 @@ const wrapDescription = styled.div`
 
     @media (max-width: 1100px) {
         margin-bottom: 2rem;
-        width: 24rem;        
+        width: 24rem;
+    }
+
+    @media (max-width: 520px) {
+        width: 18rem;
     }
 
     h3 {
@@ -120,7 +137,7 @@ const wrapDescription = styled.div`
     p {
         font-size: 1.1rem;
         margin: 2rem 0;
-        height: 4rem;
+        height: 5rem;
     }
 
     ul {

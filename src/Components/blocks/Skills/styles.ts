@@ -13,6 +13,11 @@ const skills = styled.section`
         font-weight: bold;
         font-size: 3rem;
         color: #ff3a5e;
+
+        @media (max-width: 520px) {
+            font-size: 2.5rem;
+            text-align: center;
+        }
     }
 
     @media (max-width: 1100px) {
@@ -44,6 +49,10 @@ const selectStack = styled.div`
         margin-bottom: 1rem;
         width: 24rem;        
     }
+
+    @media (max-width: 520px) {
+        width: 18rem; 
+    }
 `
 
 const selectStackButton = styled.button<{active: boolean}>`
@@ -72,6 +81,10 @@ const skillsBox = styled.div`
     @media (max-width: 1100px) {
         margin-bottom: 2rem;
         width: 20rem;        
+    }
+
+    @media (max-width: 520px) {
+        width: 14rem; 
     }
 
     h3 {

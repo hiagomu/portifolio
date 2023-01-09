@@ -22,7 +22,7 @@ const Header: React.FC = () => {
             <img src={logo} alt="" />
             <nav>
                 <styles.link href='#about'>Sobre mim</styles.link>
-                <styles.link href='#skills'>Conhecimentos</styles.link>
+                <styles.link href='#skills'>Habilidades</styles.link>
                 <styles.link href='#projects'>Projetos</styles.link>
                 <styles.link href='#contact'>Fale comigo</styles.link>
             </nav>
@@ -45,7 +45,7 @@ const Header: React.FC = () => {
                             href='#skills'
                             onClick={() => setIsActive(!isActive)}
                         >
-                            Conhecimentos
+                            Habilidades
                         </styles.link>
                         <styles.link
                             href='#projects'

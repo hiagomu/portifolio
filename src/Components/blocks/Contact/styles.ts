@@ -15,6 +15,10 @@ const contact = styled.section`
         font-size: 3rem;
         color: #ff3a5e;
         margin: 2rem 0 5rem 0;
+
+        @media (max-width: 520px) {
+            font-size: 2.5rem;
+        }
     }
 `
 
