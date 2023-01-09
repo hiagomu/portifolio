@@ -34,7 +34,7 @@ const Contact: React.FC = () => {
     };
 
     return (
-        <styles.contact id="contact ">
+        <styles.contact id="contact">
             <h2>Fale comigo</h2>
             <styles.form
                 id="form"
