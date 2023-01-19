@@ -13,8 +13,8 @@
         "name": "NBA Scoreboard",
         "description": "Projeto desenvolvido com intuito de mostrar os placares de jogos da NBA em tempo real, e situações do andamento de cada partida.",
         "stack": ["React", "Typescript", "Styled Components", "Material UI", "Figma"],
-        "live": "https://nba-dashboard.vercel.app/",
-        "github": "https://github.com/hiagomu/nba-dashboard",
+        "live": "https://nbascoreboard.vercel.app/",
+        "github": "https://github.com/hiagomu/nba-scoreboard",
         "imagePath": "/nba-dashboard.png"
     },
     {
