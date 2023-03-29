@@ -3,15 +3,16 @@
         "id": 1,
         "name": "Front-end",
         "tools": [
-            "ReactJS",
+            "Next.js",
+            "React.js",
             "Typescript",
             "Javascript",
+            "Tailwind",
             "Styled Components",
             "React Testing",
             "Material UI",
             "HTML5",
-            "CSS3",
-            "Jest"
+            "CSS3"
         ]
     },
     {
@@ -19,10 +20,10 @@
         "name": "Back-end",
         "tools": [
             "NodeJS",
-            "Prisma ORM",
+            "Prisma",
             "Sequelize",
-            "ExpressJS",
-            "PostgreSQL",
+            "Express",
+            "Postgres",
             "MongoDB"
         ]
     },
@@ -45,6 +46,8 @@
         "name": "Outros",
         "tools": [
             "Git/Github",
+            "Yup",
+            "Jest",
             "Figma",
             "Jira"
         ]

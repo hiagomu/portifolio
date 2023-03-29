@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
 const about = styled.section`
-    height: 40rem;
+    height: fit-content;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 8rem;
     color: #fff;
+    padding: 10rem 0;
 
     img {
         height: 20rem;

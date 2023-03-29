@@ -1,7 +1,8 @@
 import styled from "styled-components"
 
 const skills = styled.section`
-    height: 40rem;
+    height: fit-content;
+    min-height: 40rem;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -27,9 +28,9 @@ const skills = styled.section`
 
 const stackWrapper = styled.div`
     display: flex;
-    justify-content: space-between;
-    width: 60%;
+    gap: 2rem;
     margin-top: 5rem;
+    padding-bottom: 2rem;
 
     @media (max-width: 1100px) {
         flex-direction: column;
@@ -73,7 +74,7 @@ const skillsBox = styled.div`
     justify-content: flex-start;
     align-items: start;
     flex-direction: column;
-    height: 23rem;
+    height: fit-content;
     width: 23rem;
     padding: 2rem;
     background-color: #000;

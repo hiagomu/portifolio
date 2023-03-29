@@ -1,6 +1,15 @@
 [
     {
         "id": 1,
+        "name": "BooKeep",
+        "description": "O Starbooks é um website desenvolvido com intuito de mostrar as melhores promoções de livros, e que futuramente tem pretensão de conectar usuários de acordo com seus interesses.",
+        "stack": ["Next.js", "Typescript", "Tailwind", "Prisma", "Postgres", "Yup", "Figma"],
+        "live": "https://bookeep.io",
+        "github": "https://github.com/hiagomu/bookeep",
+        "imagePath": "/bookeep.png"
+    },
+    {
+        "id": 2,
         "name": "Starbooks",
         "description": "O Starbooks é um website desenvolvido com intuito de mostrar as melhores promoções de livros, e que futuramente tem pretensão de conectar usuários de acordo com seus interesses.",
         "stack": ["React", "Javascript", "CSS", "Firebase"],
@@ -9,7 +18,7 @@
         "imagePath": "/starbooks.png"
     },
     {   
-        "id": 2,
+        "id": 3,
         "name": "NBA Scoreboard",
         "description": "Projeto desenvolvido com intuito de mostrar os placares de jogos da NBA em tempo real, e situações do andamento de cada partida.",
         "stack": ["React", "Typescript", "Styled Components", "Material UI", "Figma"],
@@ -18,7 +27,7 @@
         "imagePath": "/nba-dashboard.png"
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "NBA Scorebot",
         "description": "NBA Scorebot é um bot feito com NodeJS, que faz tweets dos placares de partidas da NBA em tempo real.",
         "stack": ["NodeJS", "Express", "Twitter API v2"],
@@ -27,11 +36,11 @@
         "imagePath": "/nbagamesbot.png"
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "Portifolio",
         "description": "Este é o projeto que esta sendo exibido neste exato momento, que tem como intuito expor meus conhecimentos, habilidades e um pouco sobre minha carreira como desenvolvedor. Futuramente este projeto funcionará como um template, para que outros profissionais possam usar como portifolio.",
         "stack": ["React", "Typescript", "Styled Components", "Figma"],
-        "live": "https://hiagomurilo.vercel.app/",
+        "live": "https://hiagomurilo.com",
         "github": "https://github.com/hiagomu/portifolio",
         "imagePath": "/portifolio.png"
     }
