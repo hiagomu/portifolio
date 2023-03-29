@@ -79,13 +79,22 @@ const wrapButtons = styled.div`
         width: 10rem;
         cursor: pointer;
 
+        &:hover {
+            background-color: rgba(255, 58, 94, 0.1);
+        }
+
         @media (max-width: 520px) {
             width: 8rem;
         }
     }
 
-    .cv {
+    .curriculum {
         background-color: #ff3a5e;
+
+        &:hover {
+            border: 2px solid rgba(255, 58, 94, 0.6);
+            background-color: rgba(255, 58, 94, 0.6);
+        }
     }
 `
 

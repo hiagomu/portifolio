@@ -9,6 +9,7 @@ const header = styled.header`
     background: #000;
     position: fixed;
     top: 0;
+    z-index: 99;
 
     @media (max-width: 1100px) {
         justify-content: space-between;
