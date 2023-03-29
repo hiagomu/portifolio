@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "BooKeep",
-        "description": "O Starbooks é um website desenvolvido com intuito de mostrar as melhores promoções de livros, e que futuramente tem pretensão de conectar usuários de acordo com seus interesses.",
+        "description": "O BooKeep é um Website desenvolvido para compartilhar cupons, promoções de livros e livrarias virtuais. Também é uma evolução do projeto Starbooks, utilizando ferramentas mais performáticas.",
         "stack": ["Next.js", "Typescript", "Tailwind", "Prisma", "Postgres", "Yup", "Figma"],
         "live": "https://bookeep.io",
         "github": "https://github.com/hiagomu/bookeep",
